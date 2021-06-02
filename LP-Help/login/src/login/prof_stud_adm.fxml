@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="387.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.prof_stud_adm">
+   <children>
+      <Button fx:id="butonProf" layoutX="130.0" layoutY="188.0" mnemonicParsing="false" onAction="#loadProf" text="Professeur" />
+      <VBox prefHeight="400.0" prefWidth="121.0" style="-fx-background-color: cyan;" />
+      <Button fx:id="butonStud" layoutX="211.0" layoutY="188.0" mnemonicParsing="false" onAction="#loadStud" text="Student" />
+      <Button fx:id="butonAdm" layoutX="281.0" layoutY="188.0" mnemonicParsing="false" onAction="#loadAdm" text="Admin" />
+   </children>
+</AnchorPane>

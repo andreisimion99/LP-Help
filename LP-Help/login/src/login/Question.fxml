@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="387.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.Question">
+   <children>
+      <VBox prefHeight="556.0" prefWidth="121.0" style="-fx-background-color: cyan;" />
+      <Label layoutX="130.0" layoutY="20.0" text="Question :">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="QuestionField" layoutX="132.0" layoutY="53.0" prefHeight="200.0" prefWidth="200.0" promptText="Enter the question here" />
+      <Label layoutX="133.0" layoutY="263.0" text="Answer 1">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Answer1" layoutX="132.0" layoutY="293.0" prefHeight="25.0" prefWidth="200.0" promptText="Enter the answer 1 here" />
+      <Label layoutX="133.0" layoutY="330.0" text="Answer 2">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Answer2" layoutX="132.0" layoutY="356.0" prefHeight="25.0" prefWidth="200.0" promptText="Enter the answer 2 here" />
+      <Label layoutX="133.0" layoutY="390.0" text="Answer 3">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Answer3" layoutX="132.0" layoutY="416.0" prefHeight="25.0" prefWidth="200.0" promptText="Enter the answer 3 here" />
+      <Label layoutX="133.0" layoutY="447.0" text="Correct Answer">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CorrectAnswer" layoutX="132.0" layoutY="473.0" prefHeight="25.0" prefWidth="200.0" promptText="Enter the correct answer here" />
+      <Button fx:id="butonAAA" layoutX="142.0" layoutY="506.0" mnemonicParsing="false" onAction="#add" text="Button" />
+   </children>
+</AnchorPane>
