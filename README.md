@@ -14,3 +14,12 @@
 - créer un test avec 5 questions extraites de la base de données
 -Création d’un compte
 -exercer ses connaissances en démarrant des tests générés aléatoirement
+
+
+Types d’utilisateurs:
+
+   Le professeur peut créer des questions à choix multiple pour les langages de programmation ; voir le texte de la question et les réponses possibles sur l'écran (avec la bonne réponse marquée d'une certaine manière, a votre choix); sauvegarder le texte de la question, les quatre réponses possibles et la réponse correcte dans une base de données. Le professeur peut créer un test avec 5 questions extraites de la base de données.
+
+   L’admin peut se connecter (login) / se déconnecter (logout), effacer des matériels de la base de données, créer / effacer des comptes pour les étudiants ou les profs (id, email, mot de passe).
+
+   L'étudiant peut exercer ses connaissances en démarrant des tests générés aléatoirement. 
